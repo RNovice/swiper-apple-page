@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import CardRow from './CardRow.vue'
 </script>
 

@@ -1,5 +1,6 @@
 <script setup>
 import HighlightsSection from './components/HighlightsSection.vue'
+import IntelligenceSection from './components/IntelligenceSection.vue'
 import LiquidGlassSection from './components/LiquidGlassSection.vue'
 import WelcomeSection from './components/WelcomeSection.vue'
 import 'swiper/css'
@@ -15,5 +16,6 @@ import 'swiper/css'
     <WelcomeSection />
     <HighlightsSection />
     <LiquidGlassSection />
+    <IntelligenceSection />
   </main>
 </template>
