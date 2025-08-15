@@ -11,8 +11,8 @@ import CardRow from './CardRow.vue'
       "
     >
       <div class="view-content pt-12 pb-100 text-[#f5f5f7] text-center font-semibold">
-        <h2 class="text-[19px] mt-[8.4px]">設計</h2>
-        <p class="text-[38px]">
+        <h2 class="text-[19px] mt-[8.4px]" data-aos="fade-up" data-aos-duration="1000">設計</h2>
+        <p class="text-[38px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
           全新元素<span class="absolute">，</span> <br />開啟愉悅新體驗<span class="absolute"
             >。</span
           >
@@ -20,7 +20,11 @@ import CardRow from './CardRow.vue'
       </div>
     </div>
     <div class="view-content">
-      <p class="py-12 mb-[8.4px] text-[#6e6e73] text-[19px] font-semibold tracking-[-0.5px]">
+      <p
+        class="py-12 mb-[8.4px] text-[#6e6e73] text-[19px] font-semibold tracking-[-0.5px]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
         全新的 Liquid Glass 設計，不僅外觀<span class="text-nowrap">好看，</span
         >使用愉悅，而且一上手就好熟悉。在所有 app
         和各個裝置上，它都帶來更一致的使用體驗，讓一切操控有如行雲流水般

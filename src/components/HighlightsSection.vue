@@ -1,7 +1,9 @@
 <template>
   <section class="section-highlights pt-24 pb-49">
     <div class="view-content">
-      <h2 class="text-[26px] font-semibold pb-12">看這裡，畫重點。</h2>
+      <h2 class="text-[26px] font-semibold pb-12" data-aos="fade-up" data-aos-duration="1000">
+        看這裡，畫重點。
+      </h2>
     </div>
     <Swiper
       class="highlights-swiper pb-7.5!"
@@ -17,6 +19,9 @@
         <article
           :class="`highlight-card ${item.textButton ? 'child-end' : ''} `"
           :style="`background-image: url('${item.image}') `"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
         >
           <p
             :class="`m-8 text-center font-semibold leading-[1.3] relative ${item.textStyle}`"
@@ -35,7 +40,7 @@
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { ref, nextTick } from 'vue'
 const aosTrigger = ref(0)
-const currentAos = ref('fade-right')
+const currentAos = ref('')
 const handleSlide = (direction) => {
   currentAos.value = direction === 'next' ? 'fade-left' : 'fade-right'
 

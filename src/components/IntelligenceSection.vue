@@ -6,9 +6,16 @@ import CardRow from './CardRow.vue'
   <section class="section-intelligence bg-[#f5f5f7] pt-24">
     <div class="view-content">
       <div class="pb-12 font-semibold">
-        <h2 class="text-[19px]">Apple Intelligence</h2>
-        <p class="text-[38px]">天天好用，<br />輕鬆幫忙。</p>
-        <p class="text-[19px] text-[#6e6e73]">
+        <h2 class="text-[19px]" data-aos="fade-up" data-aos-duration="1000">Apple Intelligence</h2>
+        <p class="text-[38px]" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
+          天天好用，<br />輕鬆幫忙。
+        </p>
+        <p
+          class="text-[19px] text-[#6e6e73]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="50"
+        >
           Apple Intelligence
           已整合到更多地方，幫助你在不同語言中溝通無礙，打造更多個人專屬影像，並使用更強大的捷徑<span
             class="text-nowrap"
