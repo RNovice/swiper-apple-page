@@ -33,7 +33,6 @@
 
 <script setup>
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import 'swiper/css'
 import { ref, nextTick } from 'vue'
 const aosTrigger = ref(0)
 const currentAos = ref('fade-right')
