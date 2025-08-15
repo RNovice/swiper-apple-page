@@ -19,7 +19,7 @@
       'Arial',
       'Noto Sans TC',
       sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     line-height: 1.4705882353;
     font-weight: 400;
     background-color: #fff;
@@ -44,5 +44,19 @@
     font-size: 21px;
     font-weight: 600;
     line-height: 1.3334033333;
+  }
+
+  .view-content {
+    @apply w-[87.5%] mx-auto max-w-[420px];
+  }
+
+  .highlight-card {
+    @apply flow-root min-h-[480px] rounded-[28px] bg-[#f5f5f7] bg-no-repeat bg-cover bg-bottom overflow-hidden;
+  }
+}
+
+@layer utilities {
+  .child-end {
+    @apply flex flex-col justify-end
   }
 }
