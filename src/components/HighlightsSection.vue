@@ -55,7 +55,7 @@ const items = [
     textButton: false,
     textStyle: '',
     image:
-      'https://www.apple.com/tw/os/images/ios/highlights/liquid_glass__f595gw1ozwi2_small_2x.jpg',
+      'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/highlights/liquid_glass__f595gw1ozwi2_small_2x.jpg',
   },
   {
     content:
@@ -63,7 +63,7 @@ const items = [
     textButton: false,
     textStyle: '',
     image:
-      'https://www.apple.com/v/os/b/images/shared/highlights/visual_intelligence_startframe__eevpb4217oae_small_2x.jpg',
+      'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/highlights/visual_intelligence_startframe__eevpb4217oae_small_2x.jpg',
   },
   {
     content:
@@ -71,7 +71,7 @@ const items = [
     textButton: false,
     textStyle: 'text-start',
     image:
-      'https://www.apple.com/v/os/b/images/ios/highlights/personalize__502614h12s2a_small_2x.jpg',
+      'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/highlights/personalize__502614h12s2a_small_2x.jpg',
   },
   {
     content:
@@ -79,7 +79,7 @@ const items = [
     textButton: false,
     textStyle: 'text-start',
     image:
-      'https://www.apple.com/v/os/b/images/shared/highlights/live_translation__x2fac526k0im_small_2x.jpg',
+      'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/highlights/live_translation__x2fac526k0im_small_2x.jpg',
   },
   {
     content:
@@ -87,14 +87,14 @@ const items = [
     textButton: true,
     textStyle: '',
     image:
-      'https://www.apple.com/v/os/b/images/ios/highlights/screening_tools__14tk0zvttmqy_small_2x.jpg',
+      'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/highlights/screening_tools__14tk0zvttmqy_small_2x.jpg',
   },
   {
     content:
       'CarPlay 以即時動態讓你一覽更多<span class="text-nowrap">資訊<span class="absolute">，</span></span><br>還可快速點按<span class="nowrap">回應<span class="absolute">。</span></span>',
     textButton: false,
     textStyle: 'text-[#ffffffeb]',
-    image: 'https://www.apple.com/v/os/b/images/ios/highlights/carplay__cfnmfvg0l0k2_small_2x.jpg',
+    image: 'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/highlights/carplay__cfnmfvg0l0k2_small_2x.jpg',
   },
 ]
 </script>

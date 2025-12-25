@@ -24,23 +24,24 @@ import DeviceLockup from './DeviceLockup.vue'
     <DeviceLockup
       :devices="[
         {
-          src: 'https://www.apple.com/v/os/b/images/ios/welcome/welcome_ios_left2__b9y9q18mx9de_small_2x.png',
+          src: 'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/welcome/welcome_ios_left2__b9y9q18mx9de_small_2x.png',
           alt: 'Left 2',
         },
         {
-          src: 'https://www.apple.com/tw/os/images/ios/welcome/welcome_ios_left__vflvubgsgdem_small_2x.png',
+          src: 'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/welcome/welcome_ios_left__vflvubgsgdem_small_2x.png',
+          
           alt: 'Left 1',
         },
         {
-          src: 'https://www.apple.com/v/os/b/images/ios/welcome/welcome_ios_screen_startframe__f4qzub4umaum_small_2x.jpg',
+          src: 'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/welcome/welcome_ios_screen_startframe__f4qzub4umaum_small_2x.jpg',
           alt: 'Center',
         },
         {
-          src: 'https://www.apple.com/tw/os/images/ios/welcome/welcome_ios_right__f6f221cowfe6_small_2x.png',
+          src: 'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/welcome/welcome_ios_right__f6f221cowfe6_small_2x.png',
           alt: 'Right 1',
         },
         {
-          src: 'https://www.apple.com/v/os/b/images/ios/welcome/welcome_ios_right2__gganenisq7iy_small_2x.png',
+          src: 'https://raw.githubusercontent.com/RNovice/swiper-apple-page/refs/heads/main/src/assets/images/welcome/welcome_ios_right2__gganenisq7iy_small_2x.png',
           alt: 'Right 2',
         },
       ]"
